@@ -109,8 +109,8 @@ http://ec2-3-146-221-191.us-east-2.compute.amazonaws.com/
 
 1) Method	Endpoint	Description
 
-GET	/get_location_names	Returns a list of available locations
-POST	/predict_home_price	Predicts house price based on input parameters
+GET	- /get_location_names	Returns a list of available locations,
+POST	- /predict_home_price	Predicts house price based on input parameters
 
 Sample Request (POST)
 (Postman)
