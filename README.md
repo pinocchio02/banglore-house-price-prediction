@@ -14,10 +14,10 @@
 
 6) Contributing
 
-- Project Overview :
+# Project Overview :
 This project predicts house prices in Bangalore using a trained ML model. It provides a simple frontend and a REST API backend for predictions.
 
-- Tech Stack :
+# Tech Stack :
 Backend: Flask, Python
 
 Frontend: HTML, CSS, JavaScript
@@ -26,33 +26,33 @@ ML Model: Scikit-learn, Pandas, NumPy
 
 Deployment: AWS EC2, Nginx, Gunicorn
 
-- How to Run Locally :
+# How to Run Locally :
   
 Prerequisites -
 
-# Install Python (3.x).
-# Install required libraries:
+1) Install Python (3.x).
+2) Install required libraries:
 pip install -r requirements.txt (In bash)
 
 Running the Flask Server - 
 
-# Navigate to the server directory:
+3) Navigate to the server directory:
 cd BHP/Server (bash)
 
-# Run the Flask server
+4) Run the Flask server
 python3 server.py (bash)
 
-# Access the API at:
+5) Access the API at:
 http://127.0.0.1:5000(cpp)
 
 Running the Frontend -
 
-# Navigate to the client folder
+6) Navigate to the client folder
 cd BHP/Client (bash)
 
 Open app.html in a browser.
 
-- Deployment on AWS :
+# Deployment on AWS :
   
 1) Launch an EC2 Instance
 
@@ -105,12 +105,12 @@ Access Your Website
 
 http://ec2-3-146-221-191.us-east-2.compute.amazonaws.com/
 
-- API Endpoints :
+# API Endpoints :
 
 1) Method	Endpoint	Description
 
-    GET	/get_location_names	Returns a list of available locations
-    POST	/predict_home_price	Predicts house price based on input parameters
+GET	/get_location_names	Returns a list of available locations
+POST	/predict_home_price	Predicts house price based on input parameters
 
 Sample Request (POST)
 (Postman)
@@ -126,5 +126,6 @@ Sample Response
     "estimated_price": 125.5
 }
 
-- Contributing :
+# Contributing :
+
 Contributions are welcome! Feel free to open issues or submit pull requests.
