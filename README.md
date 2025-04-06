@@ -45,7 +45,7 @@ python3 server.py (bash)
 5) Access the API at: 
 http://127.0.0.1:5000(cpp)
 
-//you can use postman for seding API requests using this link
+- you can use postman for seding API requests using this link
 
 Running the Frontend -
 
@@ -76,10 +76,12 @@ start app.html
 
   Edit /etc/nginx/sites-available/BHP.conf:
 
-nginx
+nginx server: 
+    
+    {
 
-server {
     listen 80;
+    
     server_name ec2-3-146-221-191.us-east-2.compute.amazonaws.com;
 
     root /home/ubuntu/BHP/Client;
@@ -97,7 +99,7 @@ server {
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
         proxy_set_header X-Forwarded-Proto $scheme;
     }  # <-- Closing brace for location /api/ block
-}  # <-- Closing brace for server block   
+    }  # <-- Closing brace for server block   
 
 Enable Nginx:
 
