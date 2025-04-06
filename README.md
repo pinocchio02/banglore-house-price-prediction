@@ -36,21 +36,24 @@ pip install -r requirements.txt (In bash)
 
 Running the Flask Server - 
 
-3) Navigate to the server directory:
+3) Navigate to the server directory: 
 cd BHP/Server (bash)
 
-4) Run the Flask server
+4) Run the Flask server: 
 python3 server.py (bash)
 
-5) Access the API at:
+5) Access the API at: 
 http://127.0.0.1:5000(cpp)
+
+//you can use postman for seding API requests using this link
 
 Running the Frontend -
 
-6) Navigate to the client folder
+6) Navigate to the client folder:  
 cd BHP/Client (bash)
 
-Open app.html in a browser.
+7) Run it using:
+start app.html
 
 # Deployment on AWS :
   
